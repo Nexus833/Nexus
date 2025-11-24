@@ -16,11 +16,20 @@ module.exports = {
         const helpCommandId = helpCommand ? helpCommand.id : 'unknown';
 
         const mentionEmbed = new EmbedBuilder()
-          .setColor(0x5865f2)
+          .setColor(#58b9ff)
           .setDescription(
-            `Hey ${message.author}, I'm Lanya, I use \`/\` commands.\nCheck out my commands, type </help:${helpCommandId}>`
+            `🔴 Youtube:
+Nexus Youtube | [یوتیـــــــــــوب نکســــــــوس](https://youtube.com/Nexus)
+🔵 Telegram:
+Nexus Telegram | [تلگـــــــــرام نکســــــــــــس](https://t.me/Nexus)
+🟠 Instagram:
+Nexus Instagram | [اینســــــــتاگرام نکســــــــوس](https://instagram.com/Nexus)
+🟣 Aparat:
+Nexus Aparat | [آپــــــارات نکســـــــــوس](https://aparat.com/Nexus)
+⚪ Discord:
+Nexus Discord | [دیـــــــــسکورد نکســــــــوس](https://discord.gg/aTCCtpKb)`
           )
-          .setTimestamp();
+          .Nexus System;
 
         message.reply({ embeds: [mentionEmbed] }).catch(console.error);
       } catch (error) {
