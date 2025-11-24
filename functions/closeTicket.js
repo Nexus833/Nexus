@@ -44,7 +44,7 @@ async function closeTicket(channel, closer, reason = 'No reason provided') {
         { name: 'Closed By', value: closer.tag, inline: true },
         { name: 'Reason', value: reason, inline: true },
       ])
-      .Nexus Ticket System;
+     .setFooter({ text: 'Nasl 1 Ticket System' })
 
     if (settings?.logChannelId) {
       const logChannel = channel.guild.channels.cache.get(
