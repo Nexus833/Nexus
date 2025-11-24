@@ -1,8 +1,8 @@
 {
   "interval": 30000,
   "status": {
-    "type": "Streaming",
-    "state": "Play.Nexus.Net",
+    "type": "Watching",
+    "state": "{serverCount}",
     "backup_state": "",
     "url": "https://discord.gg/rq7gSXDe"
   }
