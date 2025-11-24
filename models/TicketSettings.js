@@ -12,7 +12,7 @@ const ticketSettingsSchema = new mongoose.Schema(
     welcomeMessage: {
       type: String,
       default:
-        'Welcome to your ticket, {user}! Support will be with you shortly.',
+        'Welcome {user} to Nexus! ❗Please dont mention any staff.',
     },
     closeMessage: {
       type: String,
@@ -20,7 +20,7 @@ const ticketSettingsSchema = new mongoose.Schema(
     },
     namingPattern: {
       type: String,
-      default: '{category}-{count}',
+      default: '🎫│𝖳𝗂𝖼𝗄𝖾𝗍 {count}',
       required: true,
     },
   },
