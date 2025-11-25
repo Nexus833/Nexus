@@ -19,15 +19,15 @@ module.exports = {
           .setColor(#58b9ff)
           .setDescription(
             `🔴 Youtube:
-Nexus Youtube | [یوتیـــــــــــوب نکســــــــوس](https://youtube.com/Nexus)
+Nexus Youtube | [Nexus Youtube](https://youtube.com/Nexus)
 🔵 Telegram:
-Nexus Telegram | [تلگـــــــــرام نکســــــــــــس](https://t.me/Nexus)
+Nexus Telegram | [Nexus Telegram](https://t.me/Nexus)
 🟠 Instagram:
-Nexus Instagram | [اینســــــــتاگرام نکســــــــوس](https://instagram.com/Nexus)
+Nexus Instagram | [Nexus Instagram](https://instagram.com/Nexus)
 🟣 Aparat:
-Nexus Aparat | [آپــــــارات نکســـــــــوس](https://aparat.com/Nexus)
+Nexus Aparat | [Nexus Aparat](https://aparat.com/Nexus)
 ⚪ Discord:
-Nexus Discord | [دیـــــــــسکورد نکســــــــوس](https://discord.gg/aTCCtpKb)`
+Nexus Discord | [Nexus Dsicord](https://discord.gg/aTCCtpKb)`
           )
           .setFooter({ text: 'Nexus' })
 
