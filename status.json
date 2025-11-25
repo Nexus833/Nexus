@@ -2,7 +2,7 @@
   "interval": 30000,
   "status": {
     "type": "Watching",
-    "state": "{serverCount}",
+    "state": "{serverCount} In Nexus",
     "backup_state": "",
     "url": "https://discord.gg/rq7gSXDe"
   }
