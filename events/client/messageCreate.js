@@ -29,7 +29,7 @@ Nexus Aparat | [آپــــــارات نکســـــــــوس](https://a
 ⚪ Discord:
 Nexus Discord | [دیـــــــــسکورد نکســــــــوس](https://discord.gg/aTCCtpKb)`
           )
-          .Nexus System;
+          .setFooter({ text: 'Nexus' })
 
         message.reply({ embeds: [mentionEmbed] }).catch(console.error);
       } catch (error) {
